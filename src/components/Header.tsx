@@ -19,7 +19,10 @@ const Header: React.FC = () => {
            lg: "222px",
             height:"48px", 
             top: "20px", 
-              marginLeft: "auto"  
+              marginLeft: "auto",
+              '&:hover': {
+                backgroundColor: "#FF1E1E80"
+              }  
           }}>Подключить подписку</Button>
     </Container>
 </header>

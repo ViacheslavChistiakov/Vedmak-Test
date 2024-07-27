@@ -139,7 +139,10 @@ const Arrow = (props: any) => {
            sm: "50%",  
            md: "30%",  
            lg: "222px",  
-              marginLeft: "auto"  
+              marginLeft: "auto",
+              '&:hover': {
+                backgroundColor: "#FF1E1E"
+              }   
           }}>Показать еще</Button>       
     </div>
       <div className="maps">
@@ -156,9 +159,9 @@ const Arrow = (props: any) => {
         </Container>
         <a href="/" className="poloticy">Политика обработки <br/> персональных данных</a>
         <div className="social">
-            <img src={`${process.env.PUBLIC_URL}/images/inst.svg`} alt="" />
-            <img src={`${process.env.PUBLIC_URL}/images/Facebook.svg`} alt="" />
-            <img src={`${process.env.PUBLIC_URL}/images/VK.svg`} alt="" />
+            <a href="/" className='link-social'><img src={`${process.env.PUBLIC_URL}/images/inst.svg`} alt="" /></a>
+            <a href="/" className='link-social'><img src={`${process.env.PUBLIC_URL}/images/Facebook.svg`} alt="" /></a>
+            <a href="/" className='link-social'><img src={`${process.env.PUBLIC_URL}/images/VK.svg`} alt="" /></a>
         </div>
           </footer>
   </div>

@@ -206,6 +206,15 @@ body {
         margin: auto;
         
     }
+
+    .link-social img {
+        transition: transform 0.3s, opacity 0.3s;
+      }
+      
+      .link-social:hover img {
+        transform: scale(1.1);
+        opacity: 0.8;
+      }
  }
   
 
