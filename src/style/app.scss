@@ -1,0 +1,211 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #181818;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.logo-image {
+    position: absolute;
+    top: 22px;
+    left: 120px;
+}
+
+.main {
+    width: 100%;
+    height: 440px;
+    background-image: url('../../public/images/vedmak-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.description {
+    width: 424px;
+    height: 320px;
+    position: absolute;
+    top: 152px;
+    left: 120px;
+
+
+    .desc-title {
+        color: #FFFFFF;
+        position: relative;
+        font-weight: 600px;
+        size: 56px;
+        line-height: 56px;
+        right: 15%;
+        
+    }
+
+    .desc-info {
+        color: #FFFFFF;
+        font-weight: 400px;
+        size: 16px;
+        line-height: 1.5; 
+        max-height: 4.5em; 
+        overflow: hidden;
+    }
+}
+
+.section-actors {
+    width:  100%;
+    height: 1040px;
+    background-color: #181818;
+}
+
+.progress-bar {
+    width: 1200px;
+    height: 0;
+    position: relative;
+    top: 14%;
+}
+
+
+.slider {
+    width: 100%;
+    height: 504px;
+    position: absolute;
+    left: 120px;
+    margin-top: 70px;
+}
+
+.card {
+    width: 282px;
+    height: 400px;
+
+    flex: 0 0 auto;
+}
+
+
+
+
+
+  .slick-slider {
+    position: relative;
+    top: 20%;
+  }
+
+  .slick-prev::before, .slick-next::before {
+    display: none; 
+  }
+  
+ .slick-arrow.slick-prev {
+    position: absolute;
+    top: 0px;
+    left: 1261px;
+ 
+ }
+
+ .slick-arrow.slick-next {
+    position: absolute;
+    top: 0px;
+    right: 200px;
+ }
+
+ .photos {
+    width: 1200px;
+    height: 764px;
+    display: flex;
+    position: relative;
+    top: 63%;
+    margin: auto;
+    align-items: flex-start;
+    background-color: #181818;
+
+    .photos-title {
+        width: 301px;
+        height: 48px;
+        font-size: 600;
+        justify-content: flex-start;
+        color: #FFFFFF;
+    }
+
+    .photos-first {
+        width: 588px;
+        height: 588px;
+        position: absolute;
+        top: 100px;
+    }
+
+    .block-photos {
+        width: 600px;
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, 1fr);
+        position: absolute;
+        top: 100px;
+        right: 0px;
+
+        .block-photos-wrap {
+            width: 282px;
+            height: 282px;
+        }
+    }
+ }
+
+ .maps {
+    width: 1201px;
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 67%;
+    margin: auto;
+
+
+
+    .maps-title {
+        justify-content: flex-start;
+        color: #FFFFFF;
+        width: 508px;
+        height: 48px;
+    }
+
+    .maps-wrap {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+   
+
+    }
+ }
+
+ .footer {
+    width: 100%;
+    height: 128px;
+    display: flex;
+    position: relative;
+    top: 77%;
+    background-color: #343338;
+
+    .poloticy {
+        display: flex;
+        position: relative;
+        margin: auto;
+        padding: 10px;  
+        right: 25%;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .social {
+        width: 136px;
+        height: 32px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        right: 10%;
+        margin: auto;
+        
+    }
+ }
+  
+
