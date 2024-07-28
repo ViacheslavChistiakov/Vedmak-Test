@@ -41,7 +41,7 @@ const SecondPage: React.FC = () => {
           <p className='success-message-info'>Мы получили вашу заявку. Наши специалисты<br /> свяжутся с вами в ближайшее время, чтобы<br /> уточнить все детали заказа.</p>
           <Button variant="contained"
             component={Link}
-            to="/"
+            to="/Vedmak-Test"
             sx={{
               backgroundColor: "#EC3F3F26",
               position: "relative", right: "44%", width: "222px",

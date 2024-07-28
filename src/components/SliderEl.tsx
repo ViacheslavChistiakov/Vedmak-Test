@@ -105,22 +105,22 @@ const Arrow = (props: any) => {
     <div className="progress-bar" style={{ width: `${progress}%`, height: '5px', background: 'red' }}></div>
     <Slider {...settings}>
       <div className="card">
-          <img src="/images/Card1.png" alt="" className="" />
+          <img src={`${process.env.PUBLIC_URL}/images/Card1.png`}  alt="" className="" />
       </div>
       <div className="card">
-          <img src="/images/Card2.png" alt="" className="" />
+          <img src={`${process.env.PUBLIC_URL}/images/Card2.png`}  alt="" className="" />
       </div>
       <div className="card">
-          <img src="/images/Card3.png" alt="" className="" />
+          <img src={`${process.env.PUBLIC_URL}/images/Card3.png`}  alt="" className="" />
       </div>
       <div className="card">
-          <img src="/images/Card4.png" alt="" className="" />
+          <img src={`${process.env.PUBLIC_URL}/images/Card4.png`}  alt="" className="" />
       </div>
       <div className="card">
-          <img src="/images/Card5.png" alt="" className="" />
+          <img src={`${process.env.PUBLIC_URL}/images/Card5.png`}  alt="" className="" />
       </div>
       <div className="card">
-          <img src="/images/Card6.png" alt="" className="" />
+          <img src={`${process.env.PUBLIC_URL}/images/Card6.png`} alt="" className="" />
       </div>
   </Slider>
   </div>

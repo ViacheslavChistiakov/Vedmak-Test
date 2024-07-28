@@ -14,7 +14,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/Vedmak-Test",
       element: <FirstPage />,
     },
     {
