@@ -1,8 +1,10 @@
 import './App.css';
 import './style/app.scss'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import FirstPage from './pages/FirstPage';
 import SecondPage from './pages/SecondPage';
+import store from './store/store';
 
 
 
@@ -23,7 +25,9 @@ function App() {
 
   return (
     <div className="App">  
-          <RouterProvider router={router} />
+      <Provider store={store}>
+      <RouterProvider router={router} />
+      </Provider>
     </div>
   );
 }
