@@ -183,7 +183,7 @@ body {
     height: 128px;
     display: flex;
     position: relative;
-    top: 77%;
+    top: 75%;
     background-color: #343338;
 
     .poloticy {
@@ -216,5 +216,164 @@ body {
         opacity: 0.8;
       }
  }
+
+ .form-page {
+    width: 100%;
+    height: 550px;
+    background-color: #181818;
+ }
+
+ .title-form {
+    position: relative;
+    top: 6%;
+    right: 30%;
+
+    .title-form-wrap {
+        position: relative;
+        right: 2%;
+        color: #FFFFFF;
+        font-weight: 600;
+        line-height: 56px;
+    }
+ }
+
+ .input-form {
+    width: 486px;
+    height: 580px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+
+
+    .coupl-inputs {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .wrap-upload {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        background-color: #FFFFFF1A;
+    }
+
+    .wrap-upload-inf {
+        position: relative;
+        left: 5%;
+        color: #FFFFFF;
+
+    }
+
+    .check-box {
+        width: 426px;
+        height: 32px;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .check-box-info {
+        display: flex;
+        padding: 10px;
+        margin: auto;
+        font-size: smaller;
+        color: #FFFFFF;
+    }
+ }
+
+ .button-submit {
+    width: 205px;
+    height: 56px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    border: 1px solid red;
+ }
   
+
+.some-info {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 55%;
+    left: 58%;
+    padding: 10px;
+    margin: auto;
+
+
+    .hot-line {
+        width: 275px;
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .description-ht {
+        color: #FFFFFF;
+        position: relative;
+        opacity: 60%;
+        top: 20%;
+    }
+
+    .number-ht {
+        color: #FFFFFF;
+        position: relative;
+        bottom: 10%;
+    }
+
+}
+
+.main-office {
+    width: 471px;
+    height: 68px;
+
+
+    .description-office {
+        color: #FFFFFF;
+        position: relative;
+        opacity: 60%;
+        bottom: 20%;
+        right: 38%;
+    }
+
+    .number-office {
+        position: relative;
+        bottom: 35%;
+        color: #FFFFFF;
+        font-size: 29px;
+    }
+}
+
+.time-work {
+    width: 322px;
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    .description-work {
+        position: relative;
+        top: 16%;
+        opacity: 60%;
+        color: #FFFFFF;
+    }
+
+    .work-time {
+        position: relative;
+        bottom: 20%;
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+}
 

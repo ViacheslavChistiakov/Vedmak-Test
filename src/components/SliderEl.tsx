@@ -7,6 +7,7 @@ import 'leaflet/dist/leaflet.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Button, Container } from '@mui/material';
+import Footer from './Footer';
 
 
 
@@ -151,19 +152,7 @@ const Arrow = (props: any) => {
                       <MapComponent  />
                     </div>
           </div>
-          <footer className="footer">
-      <Container sx={{display:"flex", justifyContent:"space-beetwen", width: "100%", height: "88px", margin:"auto"}}>
-        <div className="logo-image">
-            <img src={`${process.env.PUBLIC_URL}/images/header-logo.svg`} alt="logo" />
-        </div>
-        </Container>
-        <a href="/" className="poloticy">Политика обработки <br/> персональных данных</a>
-        <div className="social">
-            <a href="/" className='link-social'><img src={`${process.env.PUBLIC_URL}/images/inst.svg`} alt="" /></a>
-            <a href="/" className='link-social'><img src={`${process.env.PUBLIC_URL}/images/Facebook.svg`} alt="" /></a>
-            <a href="/" className='link-social'><img src={`${process.env.PUBLIC_URL}/images/VK.svg`} alt="" /></a>
-        </div>
-          </footer>
+          <Footer />
   </div>
   )
 };
