@@ -1,5 +1,8 @@
 import { Button, Container } from '@mui/material'
-import React from 'react'
+import { Link } from 'react-router-dom';
+import React from 'react';
+
+
 
 
 
@@ -10,7 +13,10 @@ const Header: React.FC = () => {
         <div className="logo-image">
             <img src={`${process.env.PUBLIC_URL}/images/header-logo.svg`} alt="logo" />
         </div>
-        <Button variant="contained" sx={{
+       <Button variant="contained"
+          component={Link}
+          to="/form" 
+       sx={{
           backgroundColor: "#EC3F3F26",
            position: "sticky", width:"222px",
            xs: "100%", 
@@ -22,7 +28,7 @@ const Header: React.FC = () => {
               marginLeft: "auto",
               '&:hover': {
                 backgroundColor: "#FF1E1E80"
-              }  
+              }
           }}>Подключить подписку</Button>
     </Container>
 </header>
