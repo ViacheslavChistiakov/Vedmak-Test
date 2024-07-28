@@ -11,7 +11,7 @@ const Header: React.FC = () => {
     <header className="header">
     <Container sx={{display:"flex", justifyContent:"space-beetwen", width: "100%", height: "88px"}}>
         <div className="logo-image">
-            <img src={`${process.env.PUBLIC_URL}/images/header-logo.svg`} alt="logo" />
+            <img src={`${process.env.PUBLIC_URL}images/header-logo.svg`} alt="logo" />
         </div>
        <Button variant="contained"
           component={Link}
