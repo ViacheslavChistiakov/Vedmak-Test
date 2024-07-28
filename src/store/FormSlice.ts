@@ -45,7 +45,6 @@ const formSlice = createSlice({
     setField: <K extends keyof FormState>(state: FormState, action: PayloadAction<{ field: K; value: FormState[K] }>) => {
       const { field, value } = action.payload;
       state[field] = value;
-    //   state.errors[field] = ''; // Clear error when the field is updated
     },
     validateForm: (state) => {
       state.errors.city = state.city ? '' : 'Город не выбран';
