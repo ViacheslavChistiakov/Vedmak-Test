@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vedmak-Test/static/css/main.286a58bc.css",
-    "main.js": "/Vedmak-Test/static/js/main.0f0e00f7.js",
+    "main.js": "/Vedmak-Test/static/js/main.c9d5b495.js",
     "static/js/453.0744c343.chunk.js": "/Vedmak-Test/static/js/453.0744c343.chunk.js",
     "static/media/vedmak-bg.png": "/Vedmak-Test/static/media/vedmak-bg.5717e0084c6c3d2a825e.png",
     "static/media/slick.svg": "/Vedmak-Test/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,11 +10,11 @@
     "static/media/slick.woff": "/Vedmak-Test/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Vedmak-Test/index.html",
     "main.286a58bc.css.map": "/Vedmak-Test/static/css/main.286a58bc.css.map",
-    "main.0f0e00f7.js.map": "/Vedmak-Test/static/js/main.0f0e00f7.js.map",
+    "main.c9d5b495.js.map": "/Vedmak-Test/static/js/main.c9d5b495.js.map",
     "453.0744c343.chunk.js.map": "/Vedmak-Test/static/js/453.0744c343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.286a58bc.css",
-    "static/js/main.0f0e00f7.js"
+    "static/js/main.c9d5b495.js"
   ]
 }
