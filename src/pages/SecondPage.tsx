@@ -32,7 +32,7 @@ const SecondPage: React.FC = () => {
 
   return (
     <div className={`form-page ${isFormValid() ? 'valid-form-page' : ''}`}>
-      <Container component={Link} to="/" sx={{ display: "flex", justifyContent: "space-between", width: "130px", height: "44px", position: "relative", right: "35%", marginTop: "20px" }}>
+      <Container component={Link} to="/Vedmak-Test" sx={{ display: "flex", justifyContent: "space-between", width: "130px", height: "44px", position: "relative", right: "35%", marginTop: "20px" }}>
         <img src={`${process.env.PUBLIC_URL}/images/header-logo.svg`} alt="logo" />
       </Container>
       {isSubmitted ? (
